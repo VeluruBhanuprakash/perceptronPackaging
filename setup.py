@@ -3,12 +3,12 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-PKG_NAME = "Mypackage_pkg"
+PKG_NAME = "perceptronPackaging"
 USER_Name = "VeluruBhanuprakash"
-PROJECT_NAME = "perceptron-pkg"
+PROJECT_NAME = "perceptronPackaging_pkg"
 setuptools.setup(
     name=f"{PKG_NAME}--{USER_Name}",
-    version="0.0.2",
+    version="0.0.3",
     author=USER_Name,
     author_email="bhanuprakash@gmail.com",
     description="A small package of perceptron",
