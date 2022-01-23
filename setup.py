@@ -5,10 +5,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 PKG_NAME = "perceptronPackaging"
 USER_Name = "VeluruBhanuprakash"
-PROJECT_NAME = "perceptronPackaging_pkg"
+PROJECT_NAME = "perceptronPackaging"
 setuptools.setup(
     name=f"{PKG_NAME}--{USER_Name}",
-    version="0.0.3",
+    version="0.0.4",
     author=USER_Name,
     author_email="bhanuprakash@gmail.com",
     description="A small package of perceptron",
